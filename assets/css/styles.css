@@ -548,7 +548,7 @@ body.light-theme {
 .skills__box {
   display: flex;
   justify-content: center;
-  column-gap: 2.5rem;
+  /* column-gap: 2.5rem; */
 }
 
 .skills__group {
@@ -1014,7 +1014,7 @@ contact__form-area textarea {
     grid-template-columns: repeat(2, 1fr);
   }
   .skills__box {
-    column-gap: 1rem;
+    /* column-gap: 1rem; */
   }
   .skills__name {
     font-size: var(--small-font-size);
