@@ -1054,7 +1054,7 @@ contact__form-area textarea {
     justify-content: center;
   }
   .skills__content {
-    padding: 2rem 4rem;
+    padding: 2rem 6rem;
   }
   .services__container {
     grid-template-columns: repeat(2, 160px);
