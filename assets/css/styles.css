@@ -1151,10 +1151,10 @@ contact__form-area textarea {
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
   }
-  .skills__container {
+  /* .skills__container {
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
-  }
+  } */
   .services__container {
     grid-template-columns: repeat(3, 192px);
     column-gap: 3rem;
