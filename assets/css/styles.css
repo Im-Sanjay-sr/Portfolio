@@ -693,6 +693,10 @@ body.light-theme {
 .work__container {
   padding-top: 1rem;
 }
+.workzz__container {
+  padding-top: 1rem;
+}
+
 
 .work__filters {
   display: flex;
@@ -1070,6 +1074,9 @@ contact__form-area textarea {
   .work__container {
     justify-content: center;
   }
+  .workzz__container {
+    justify-content: center;
+  }
   .work__img {
     width: 295px;
   }
@@ -1085,7 +1092,10 @@ contact__form-area textarea {
 
 @media screen and (min-width: 767px) {
   .work__container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
+  }
+  .workzz__container {
+    grid-template-columns: repeat(3, max-content);
   }
   .contact__container {
     /* grid-template-columns: repeat(2, max-content); */
@@ -1163,6 +1173,9 @@ contact__form-area textarea {
     padding: 5rem 2rem 1.5rem;
   }
   .work__container {
+    gap: 3rem;
+  }
+  .workzz__container {
     gap: 3rem;
   }
   .work__card {
